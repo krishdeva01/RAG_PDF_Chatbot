@@ -1,0 +1,13 @@
+flask
+flask-sqlalchemy
+flask-jwt-extended
+pdfplumber
+camelot-py[cv]
+pytesseract
+opencv-python
+faiss-cpu
+sentence-transformers
+transformers
+torch
+python-dotenv
+gunicorn

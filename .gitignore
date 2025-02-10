@@ -1,0 +1,15 @@
+venv
+venv/ 
+uploads/vitamins.pdf
+backend/images/*.png
+
+# dependencies
+frontend/chatbot/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+frontend/chatbot/build
