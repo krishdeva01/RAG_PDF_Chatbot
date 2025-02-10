@@ -5,7 +5,6 @@ Ensure you have the following installed:
 - Python (>=3.8)
 - Node.js (>=16.x)
 - PostgreSQL (if using a database other than SQLite)
-- Redis (if using Celery for async tasks)
 - pip & virtualenv (for managing Python dependencies)
 - yarn or npm (for managing React dependencies)
 
@@ -29,7 +28,7 @@ Ensure you have the following installed:
    ```
 4. Set up the environment variables:
    - Create a `.env` file in `backend/` and add necessary configurations (e.g., database settings, secret keys).
-5. 
+5. to start the server
    python3 run.py
    ```
 
@@ -60,13 +59,13 @@ Ensure you have the following installed:
 ## Running the Full Project
 - Start the backend (`Flask`):
   ```sh
-  cd RAGBOT/backend
+  cd RAG_BOT/backend
   source venv/bin/activate  # Activate virtualenv
   python3 run.py
   ```
 - Start the frontend (`React`):
   ```sh
-  cd RAGBOT/frontend
+  cd RAG_BOT/frontend
   npm start  # or yarn start
   ```
 
