@@ -4,7 +4,7 @@ uploads/vitamins.pdf
 backend/images/*.png
 
 # dependencies
-frontend/chatbot/node_modules
+# frontend/chatbot/node_modules
 /.pnp
 .pnp.js
 
