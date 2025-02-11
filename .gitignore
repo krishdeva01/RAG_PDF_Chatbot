@@ -12,4 +12,4 @@ backend/images/*.png
 /coverage
 
 # production
-frontend/chatbot/build
+# frontend/chatbot/build
