@@ -109,10 +109,6 @@ def chat():
 
         retriever = Retriever()
         text_indices = retriever.retrieve(user_input)
-
-        if not text_indices:
-            return handle_error("No relevant documents found", 404)
-
         relevant_texts = [retriever.documents[i] for i in text_indices]
         
         from app.models.generator import Generator
